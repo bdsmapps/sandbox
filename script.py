@@ -1,2 +1,7 @@
-with open("log.log", "w") as f:
-	f.write("all is ok")
+from selenium import webdriver
+import time
+
+driver = webdriver.Firefox()
+time.sleep(5)
+driver.quit()
+
