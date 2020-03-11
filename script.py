@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-print("lol")
+print("lol2")
 
 driver = webdriver.Firefox()
 time.sleep(5)
